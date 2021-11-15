@@ -1,12 +1,40 @@
-# Task Tracker app 
+# Task Tracker app (Angular)
 
-Angular Crash Course 2021 from [Traversy Media](https://www.youtube.com/watch?v=3dHNOWTI7H8&list=WL&index=41&t=3673s)
+Angular Crash Course 2021 from [Traversy Media](https://www.youtube.com/watch?v=3dHNOWTI7H8&list=WL&index=41&t=3673s).
+It includes the Angular ui as well as JSON-server for our mock backend
 
 
+## Getting Started
+To set up a local development-environment:
 
-## Development server
+- Install Node.js: <https://nodejs.org/en/download/>
+
+  Install the version specified in the [`.node-version`](.node-version)-file.  
+  To prevent conflicts it is recommended to use a 'version manager'.
+
+  - [`fnm`](https://github.com/Schniz/fnm#readme) (for Windows/macOS/Linux) After installing, run in this directory:
+
+        fnm use
+
+  - [NVM - Node Version Manager](http://nvm.sh/) (for macOS/Linux) After installing, run in this directory:
+
+        nvm install && nvm install-latest-npm
+
+  - After installing, run in this directory:
+
+        nvm use
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Local Development
+
+After this initial set-up, you can start with:
+
+- `npm start` - for client
+- `npm run sserver` - for the server
+
+The front-end client should be running at: <http://localhost:4200/>.  
+The back-end JSON server at: <http://localhost:3000/>, <http://localhost:3000/api/> .
 
 ## Code scaffolding
 
