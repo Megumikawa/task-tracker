@@ -38,11 +38,16 @@ $ cd tasktracker
 $ npm install
 ```
 
+4. Install npm JSON Server package
 - Install JSON Server used:[JSON Server](https://www.npmjs.com/package/json-server) <http://localhost:3000/>
+```bash
 $ npm install -g json-server
+```
 
 - Start JSON Server
+```bash
 $ json-server --watch db.json
+```
 
 
 Run Angular server (`http://localhost:4200`)
@@ -54,9 +59,15 @@ $ ng serve
 ## Local Development
 
 After this initial set-up, you can start with:
+- for client should be running at : <http://localhost:4200/>.  
+```bash
+$ npm start
+```
 
-- `npm start` - for client should be running at : <http://localhost:4200/>.  
-- `npm run server` - for the server
+- for the server
+```bash
+$ npm run server 
+ ```
 
 
 
