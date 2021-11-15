@@ -4,6 +4,7 @@ Angular Crash Course 2021 from [Traversy Media](https://www.youtube.com/watch?v=
 It includes the Angular ui as well as JSON-server for our mock backend
 
 
+![](task_tracker.gif)
 ## Getting Started
 ### Prerequisites
 
@@ -39,7 +40,7 @@ npm install
 ```
 
 4. Install npm JSON Server package
-- Install JSON Server used:[JSON Server](https://www.npmjs.com/package/json-server) `http://localhost:3000/`
+- Install [JSON Server](https://www.npmjs.com/package/json-server)used: `http://localhost:3000/`
 ```bash
 npm install -g json-server
 ```
@@ -71,13 +72,20 @@ npm run server
 
 
 
-## Command to create new component
+## Usage
 
-Run `ng generate component component-name` to generate a new component. 
+- Command to create new component
+Run this to generate a new component. 
+```bash
+ng generate component component-name
+```
 
-## To Build
+- To build
+Run this to build the project. 
+```bash
+ng build
+```
 
-Run `ng build` to build the project. 
 
 
 ## Further help
