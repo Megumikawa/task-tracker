@@ -3,8 +3,8 @@
 Angular Crash Course 2021 from [Traversy Media](https://www.youtube.com/watch?v=3dHNOWTI7H8&list=WL&index=41&t=3673s).
 It includes the Angular ui as well as JSON-server for our mock backend
 
-<img src="https://github.com/megumikawa/fend-capstone-travel-app/blob/master/task_tracker.gif" alt="taskTrack" width="700px">
-![](task_tracker.gif)
+![task_tracker](https://user-images.githubusercontent.com/55644602/141805893-fcbb1e38-ed66-47a3-8a76-3b4e96b29f86.gif)
+
 ## Getting Started
 ### Prerequisites
 
