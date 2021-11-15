@@ -39,7 +39,7 @@ $ npm install
 ```
 
 4. Install npm JSON Server package
-- Install JSON Server used:[JSON Server](https://www.npmjs.com/package/json-server) <http://localhost:3000/>
+- Install JSON Server used:[JSON Server](https://www.npmjs.com/package/json-server): <http://localhost:3000/>
 ```bash
 $ npm install -g json-server
 ```
@@ -50,7 +50,7 @@ $ json-server --watch db.json
 ```
 
 
-Run Angular server (`http://localhost:4200`)
+Run Angular server: <http://localhost:4200>
 
 ```bash
 $ ng serve
