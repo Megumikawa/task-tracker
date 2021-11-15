@@ -1,6 +1,8 @@
-# AngularCrash
+# Task Tracker app 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
+Angular Crash Course 2021 from [Traversy Media](https://www.youtube.com/watch?v=3dHNOWTI7H8&list=WL&index=41&t=3673s)
+
+
 
 ## Development server
 
