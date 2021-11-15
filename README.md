@@ -5,52 +5,70 @@ It includes the Angular ui as well as JSON-server for our mock backend
 
 
 ## Getting Started
-To set up a local development-environment:
+### Prerequisites
 
-- Install Node.js: <https://nodejs.org/en/download/>
+Make sure Node and npm are installed from the terminal
 
-  Install the version specified in the [`.node-version`](.node-version)-file.  
-  To prevent conflicts it is recommended to use a 'version manager'.
+```bash
+$ node -v
+$ npm -v
+```
 
-  - [`fnm`](https://github.com/Schniz/fnm#readme) (for Windows/macOS/Linux) After installing, run in this directory:
+---
+## Installation
 
-        fnm use
+1. Fork this repo into your own GitHub
 
-  - [NVM - Node Version Manager](http://nvm.sh/) (for macOS/Linux) After installing, run in this directory:
+2. Clone the repo to your local machine
 
-        nvm install && nvm install-latest-npm
+```bash
+# Change to the desired directory
+$ cd <desired-directory>
 
-  - After installing, run in this directory:
+# Clone the repo
+$ git clone https://github.com/Megumikawa/task-tracker.git
 
-        nvm use
+# Change to the project directory
+$ cd tasktracker
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+3. Install dependencies
+
+```bash
+$ npm install
+```
+
+- Install JSON Server used:[JSON Server](https://www.npmjs.com/package/json-server) <http://localhost:3000/>
+$ npm install -g json-server
+
+- Start JSON Server
+$ json-server --watch db.json
+
+
+Run Angular server (`http://localhost:4200`)
+
+```bash
+$ ng serve
+```
 
 ## Local Development
 
 After this initial set-up, you can start with:
 
-- `npm start` - for client
-- `npm run sserver` - for the server
+- `npm start` - for client should be running at : <http://localhost:4200/>.  
+- `npm run server` - for the server
 
-The front-end client should be running at: <http://localhost:4200/>.  
-The back-end JSON server at: <http://localhost:3000/>, <http://localhost:3000/api/> .
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Command to create new component
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng generate component component-name` to generate a new component. 
 
-## Running unit tests
+## To Build
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng build` to build the project. 
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
